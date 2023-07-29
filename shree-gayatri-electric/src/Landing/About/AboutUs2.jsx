@@ -4,9 +4,9 @@ import Typography from "@mui/material/Typography";
 import { Grid } from "@mui/material";
 
 const AboutUsContainer = styled.div`
-  height: 100vh;
-  /*margin-top: 5rem;*/
-  background-color: rgba(0, 0, 0, 0.94);
+  height: auto;
+  padding: 10rem 0 5rem 0;
+  background-color: rgba(0,0,0,255);
   color: #fff;
   display: flex;
   align-items: center;
@@ -15,7 +15,7 @@ const AboutUsContainer = styled.div`
 
   @media (max-width: 900px) {
     height: auto;
-    padding-top: 4rem;
+    padding-top: 5rem;
   }
 `;
 
@@ -47,7 +47,7 @@ const ImageWrapper = styled.div`
 `;
 
 const GridContainers = styled.div`
-  padding: 0 0 2rem 12rem;
+  padding: 0 6rem 2rem 9rem;
   @media (max-width: 900px) {
     padding: 2rem;
   }

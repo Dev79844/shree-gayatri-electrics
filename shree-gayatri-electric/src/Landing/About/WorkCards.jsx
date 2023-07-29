@@ -23,7 +23,7 @@ export default function WorkCards() {
                     }}>
                         <CardMedia
                             component="img"
-                            height="240"
+                            height="auto"
                             image={main}
                             alt="green iguana"
                             sx={{borderRadius: "16px"}}
@@ -54,7 +54,7 @@ export default function WorkCards() {
                     }}>
                         <CardMedia
                             component="img"
-                            height="240"
+                            height="auto"
 
                             image={main}
                             alt="green iguana"
@@ -87,7 +87,7 @@ export default function WorkCards() {
                     }}>
                         <CardMedia
                             component="img"
-                            height="240"
+                            height="auto"
                             image={main}
                             alt="green iguana"
                             sx={{ borderRadius: "16px" }}

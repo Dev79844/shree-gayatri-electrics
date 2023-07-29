@@ -13,7 +13,7 @@ function App() {
         <>
             <Navbar />
             <div id="home">
-                {/*<Home />*/}
+                <Home />
             </div>
             <div id="business">
                 <Service />
@@ -28,7 +28,7 @@ function App() {
                 <HumanCapital />
             </div>
             <div id="nice-few-words">
-                {/*<NiceFewWords />*/}
+                <NiceFewWords />
             </div>
             <div id="contact">
                 <Footer />

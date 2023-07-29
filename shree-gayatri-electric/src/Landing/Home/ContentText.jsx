@@ -5,9 +5,9 @@ import Box from "@mui/material/Box";
 const ContentText = () => {
     return (
         <div className="content-text" style={{ textAlign: 'left' }}>
-            <Typography variant="h1" sx={{ fontSize: '3rem' }}>TRANSFORMER <br/> COMPANY</Typography>
+            <Typography variant="h1">TRANSFORMER <br/> COMPANY</Typography>
             <br/>
-            <Typography variant={"p"} sx={{ fontSize: '1.5rem' }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ea labore minima nihil obcaecati sequi veniam! Architecto impedit nesciunt quasi.</Typography>
+            <Typography variant="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ea labore minima nihil obcaecati sequi veniam! Architecto impedit nesciunt quasi.</Typography>
             <br/>
             <Box sx={{ display: 'flex', gap: '1rem', marginY: '1rem' }}>
                 <Button variant="outlined" sx={{ borderRadius: '8px' }} size="large">About Us</Button>

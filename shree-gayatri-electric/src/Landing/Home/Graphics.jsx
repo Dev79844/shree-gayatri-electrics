@@ -4,27 +4,42 @@ import downRectangle from "../../assets/Images/Rectangle 257.png";
 
 const Graphics = () => {
     return (
-        <div style={{ position: 'relative' }}>
-            <img
-                src={main}
-                alt="Our workplace"
-                className={`main-img ${window.innerWidth > 900 ? 'show' : ''}`}
-                style={{ position: 'absolute', top: '-14vh', left: '5vw', zIndex: 10, transform: 'scale(0.8)' }}
-            />
+        <div style={{position: 'absolute'}}>
+            <div style={{
+                display: "inline-block",
+                // padding: "20px"
+            }}>
+                <img
+                    src={main}
+                    alt="Our workplace"
+                    className={`main-img ${window.innerWidth > 900 ? 'show' : ''}`}
+                    style={{
+                        zIndex: 10
+                    }}
+                />
 
-            <img
-                src={upRectangle}
-                alt="Image 2"
-                className={`main-img ${window.innerWidth > 900 ? 'show' : ''}`}
-                style={{ position: 'absolute', top: '-16vh', left: '3vw', zIndex: 2, transform: 'scale(0.8)' }}
-            />
-            <img
-                src={downRectangle}
-                alt="Image 2"
-                className={`main-img ${window.innerWidth > 900 ? 'show' : ''}`}
-                style={{ position: 'absolute', top: '2vh', left: '10vw', zIndex: 3, transform: 'scale(0.8)' }}
-            />
+                <img
+                    src={upRectangle}
+                    alt="Image 2"
+                    className={`main-img ${window.innerWidth > 900 ? 'show' : ''}`}
+                    style={{
+                        top: '140px',
+                        left: '50px',
+                        zIndex: 2,
+                    }}
+                />
 
+                <img
+                    src={downRectangle}
+                    alt="Image 2"
+                    className={`main-img ${window.innerWidth > 900 ? 'show' : ''}`}
+                    style={{
+                        top: '-25px',
+                        left: '-40px',
+                        zIndex: 3,
+                    }}
+                />
+            </div>
         </div>
     );
 };
