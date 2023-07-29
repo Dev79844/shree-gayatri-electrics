@@ -8,7 +8,6 @@ import CallIcon from '@mui/icons-material/Call';
 
 
 import styled from 'styled-components';
-import {useEffect, useState} from "react";
 
 const Image = styled.img`
   padding: 4rem 1rem;
@@ -24,24 +23,28 @@ const Image = styled.img`
 
 const Footer = () => {
 
-    const isMobile = useMediaQuery('(max-width: 600px)');
-
-    return (<div style={{
-            color: "#fff", backgroundSize: "cover", display: "flex", alignItems: "center", justifyContent: "center",
+    return (
+        <div style={{
+            color: "#fff", backgroundSize: "cover", display: "flex", alignItems: "center", justifyContent: "center", border: "2px solid red"
         }}
                  className="footer-container"
         >
 
             <div className={"footer-icons"}>
-                <div style={{
-                    display: "flex", alignItems: "center", justifyContent: "space-evenly",
+                <divv style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-evenly",
+                    border: "2px solid blue",
+                    overflow: "auto",
+                    paddingX: "2rem"// edit
                 }}>
                     <Image src={footer1} alt="Certified"/>
                     <Image src={footer2} alt="Certified"/>
                     <Image src={footer3} alt="Certified"/>
-                </div>
+                </divv>
 
-                <Grid container spacing={4} maxWidth={"100%"} width={"100vw"}>
+                <Grid container maxWidth={"100%"} width={"100vw"} border={"2px solid red"}>
                     <Grid item xs={6} md={3}>
                         <Typography variant={"h4"} mb={2}>Contact Us</Typography>
                         <img src={footerUnderLine} alt="Footer Nav" align={"center"} style={{marginRight: "6rem"}}/>

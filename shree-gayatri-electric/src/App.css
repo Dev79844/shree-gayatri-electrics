@@ -38,7 +38,7 @@
     .about-container {
         height: 100vh;
         margin-top: 5rem;
-        background-color: rgba(0, 0, 0, 0.94);
+        background-color: rgba(0,0,0,255);
         color: #fff;
         display: flex;
         align-items: center;
@@ -171,9 +171,13 @@
 
     .content-text {
         margin: 0 0 0 1rem;
+
     }
     .content-text>h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
+    }
+    .content-text>span {
+        font-size: 1.5rem;
     }
 
     .main-img {
@@ -251,6 +255,8 @@
         background-size: cover;
         background-position: center;
         color: #ffffff;
+        max-width: 100%;
+        width: auto;
     }
 
     .nice-few-words {
@@ -289,8 +295,10 @@
     }
     .footer-icons {
         /*padding: 10rem;*/
-        margin: 5rem;
-        max-width: 90%;
+        margin: 5rem 0;
+        max-width: 100%;
+        /*width: 100vw;*/
+        /*padding: 0 1rem;*/
     }
 }
 
