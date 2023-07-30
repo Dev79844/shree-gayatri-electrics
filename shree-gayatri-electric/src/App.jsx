@@ -28,7 +28,7 @@ function App() {
                 <HumanCapital />
             </div>
             <div id="nice-few-words">
-                <NiceFewWords />
+                {/*<NiceFewWords />*/}
             </div>
             <div id="contact">
                 <Footer />

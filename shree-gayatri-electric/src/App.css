@@ -36,8 +36,9 @@
     }
 
     .about-container {
-        height: 100vh;
+        height: auto;
         margin-top: 5rem;
+        padding: 5rem 8rem;
         background-color: rgba(0,0,0,255);
         color: #fff;
         display: flex;
@@ -51,7 +52,7 @@
         background-color: rgba(0, 0, 0, 0.94);
         color: #fff;
         display: flex;
-        /*!*align-items: center;*!                                    ////////////////////////////////////////////////////////////////*/
+        /*!*align-items: center;*!
         justify-content: center;
         flex-direction: column;
     }
@@ -67,6 +68,8 @@
         overflow-x: auto; /* Use auto for responsive scrolling */
         padding: 1rem;
         margin: 3rem;
+        justify-content: center;
+        /*border: 2px solid red;*/
     }
 
     .people-list {
@@ -101,7 +104,7 @@
         /*background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('./assets/Images/humanCapital (1).png'), url('./assets/Images/humanCapital (2).png');*/
         background-image: url("./assets/Images/humanCapitalBG.png");
         background-size: cover;
-        background-position: center;
+        background-position: bottom;
     }
 
     .human-capital {
@@ -147,8 +150,9 @@
 
 /*    */
     .footer-container{
-        background-image: url("./assets/Images/footerBG.png");
-        background-size: cover;
+        /*background-image: url("./assets/Images/footerBG.png");*/
+        /*background-size: cover;*/
+        background-color: rgba(0,0,0,255);
         color: #ffffff;
         background-position: top center; /* Align the image to the top center */
         background-repeat: no-repeat;
@@ -246,6 +250,9 @@
 
     .human-capital {
         margin-top: 1rem;
+        /*padding: 0 1rem;*/
+    }
+    .human-capital>p{
         padding: 0 1rem;
     }
 
@@ -287,8 +294,9 @@
 /*    */
 
     .footer-container{
-        background-image: url("./assets/Images/footerBG.png");
-        background-size: cover;
+        /*background-image: url("./assets/Images/footerBG.png");*/
+        /*background-size: cover;*/
+        background-color: rgba(0,0,0,255);
         color: #ffffff;
         background-position: top center; /* Align the image to the top center */
         background-repeat: no-repeat;

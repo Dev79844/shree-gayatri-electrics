@@ -1,14 +1,16 @@
-import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import {CardActionArea, Grid} from '@mui/material';
-import main from '../../assets/Images/WhatsApp Image 2023-05-24 at 23.19 8.png'
+import workedAtImage1 from '../../assets/Images/workedAtImage1.jpeg'
+import workedAtImage2 from '../../assets/Images/workedAtImage2.png'
+import workedAtImage3 from '../../assets/Images/workedAtImage3.jpeg'
+
 
 export default function WorkCards() {
     return (
         <>
-            <Grid container spacing={10} mt={10}>
+            <Grid container spacing={10} mt={10} px={6}>
                 <Grid item sm={12} md={4}>
 
                     <CardActionArea sx={{
@@ -24,17 +26,16 @@ export default function WorkCards() {
                         <CardMedia
                             component="img"
                             height="auto"
-                            image={main}
+                            image={workedAtImage1}
                             alt="green iguana"
                             sx={{borderRadius: "16px"}}
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" fontSize={"3rem"} component="div" color="text.secondary">
-                                Forem ipsum
+                                Vapi
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
+                            <Typography variant="h5" color="text.secondary">
+                                Over 20 years, we ensured seamless GEB transformer operation in Vapi District
                             </Typography>
                         </CardContent>
                     </CardActionArea>
@@ -56,18 +57,17 @@ export default function WorkCards() {
                             component="img"
                             height="auto"
 
-                            image={main}
+                            image={workedAtImage2}
                             alt="green iguana"
                             // borderRadius= "5%"
                             sx={{ borderRadius: "16px" }}
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" fontSize={"3rem"} component="div" color="text.secondary">
-                                Forem ipsum
+                                Godhra
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
+                            <Typography variant="h5" color="text.secondary">
+                                Over 12 years, we ensured seamless GEB transformer operation in Godhra District
                             </Typography>
                         </CardContent>
                     </CardActionArea>
@@ -88,17 +88,16 @@ export default function WorkCards() {
                         <CardMedia
                             component="img"
                             height="auto"
-                            image={main}
+                            image={workedAtImage3}
                             alt="green iguana"
                             sx={{ borderRadius: "16px" }}
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" fontSize={"3rem"} component="div" color="text.secondary">
-                                Forem ipsum
+                                Valsad
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
+                            <Typography variant="h5" color="text.secondary">
+                                Over 15 years, we ensured seamless GEB transformer operation in Vapi District
                             </Typography>
                         </CardContent>
                     </CardActionArea>

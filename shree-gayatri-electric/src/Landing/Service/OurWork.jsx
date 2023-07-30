@@ -1,6 +1,6 @@
 import Typography from "@mui/material/Typography";
 import { Grid } from "@mui/material";
-import WorkCards from "../About/WorkCards.jsx";
+import WorkCards from "./WorkCards.jsx";
 
 const OurWork = () => {
 
@@ -25,9 +25,7 @@ const OurWork = () => {
 
                     <Grid item sm={12} md={6}>
                         <Typography variant={"body1"} textAlign={"left"} pt={2} fontSize={"1.5rem"}>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur blanditiis excepturi inventore porro
-                            quae? Ab aliquam aspernatur consequuntur fugit, obcaecati totam. A consectetur molestias omnis quas
-                            reprehenderit. Architecto, delectus, soluta?
+                            SGEC has operations in more than 20 cities, take a glance at our top 3 sites!
                         </Typography>
                     </Grid>
                 </Grid>

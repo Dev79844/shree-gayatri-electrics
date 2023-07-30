@@ -5,17 +5,18 @@ import footer2 from "../../assets/Images/footer2.png"
 import footer3 from "../../assets/Images/footer3.png"
 import footerUnderLine from "../../assets/Images/footerUnderLine.png"
 import CallIcon from '@mui/icons-material/Call';
-
+import EmailIcon from '@mui/icons-material/Email';
+import BusinessIcon from '@mui/icons-material/Business';
 
 import styled from 'styled-components';
 
 const Image = styled.img`
-  padding: 4rem 1rem;
+  padding: 1rem;
   max-width: ${({maxWidth}) => maxWidth};
   width: ${({width}) => width};
 
   @media (max-width: 600px) {
-    padding: 1rem 1rem;
+    padding: 1rem;
     max-width: 100px;
     width: 100px;
   }
@@ -25,7 +26,12 @@ const Footer = () => {
 
     return (
         <div style={{
-            color: "#fff", backgroundSize: "cover", display: "flex", alignItems: "center", justifyContent: "center", border: "2px solid red"
+            color: "#fff",
+            backgroundSize: "cover",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            // border: "2px solid red"
         }}
                  className="footer-container"
         >
@@ -35,7 +41,7 @@ const Footer = () => {
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "space-evenly",
-                    border: "2px solid blue",
+                    // border: "2px solid blue",
                     overflow: "auto",
                     paddingX: "2rem"// edit
                 }}>
@@ -44,51 +50,54 @@ const Footer = () => {
                     <Image src={footer3} alt="Certified"/>
                 </divv>
 
-                <Grid container maxWidth={"100%"} width={"100vw"} border={"2px solid red"}>
-                    <Grid item xs={6} md={3}>
+                <Grid container maxWidth={"100%"} width={"100vw"} >
+                    {/*<Grid item xs={6} md={3}>*/}
+                    {/*    <Typography variant={"h4"} mb={2}>Contact Us</Typography>*/}
+                    {/*    <img src={footerUnderLine} alt="Footer Nav" align={"center"} style={{marginRight: "6rem"}}/>*/}
+                    {/*    <br/>*/}
+                    {/*    <div style={{display: "flex", justifyContent: "center", padding: "1rem"}}>*/}
+                    {/*        <Typography variant={"body1"}> Lorem ipsum.</Typography>*/}
+                    {/*    </div>*/}
+                    {/*    <div style={{display: "flex", justifyContent: "center", padding: "0rem 1rem"}}>*/}
+                    {/*        <Typography variant={"body1"}> Lorem ipsum.</Typography>*/}
+                    {/*    </div>*/}
+                    {/*</Grid>*/}
+                    <Grid item xs={12} md={12}>
                         <Typography variant={"h4"} mb={2}>Contact Us</Typography>
-                        <img src={footerUnderLine} alt="Footer Nav" align={"center"} style={{marginRight: "6rem"}}/>
+                        <img src={footerUnderLine} alt="Footer Nav" align={"center"}/>
                         <br/>
-                        <div style={{display: "flex", justifyContent: "center", padding: "1rem"}}>
-                            <Typography variant={"body1"}> Lorem ipsum.</Typography>
+                        <div style={{display: "flex", justifyContent: "center", padding: "0.5rem"}}>
+                            <CallIcon/><Typography variant={"body1"} p={"0 1rem"}>+91 7096027123</Typography>
                         </div>
-                        <div style={{display: "flex", justifyContent: "center", padding: "0rem 1rem"}}>
-                            <Typography variant={"body1"}> Lorem ipsum.</Typography>
+                        <div style={{display: "flex", justifyContent: "center", padding: "0.5rem"}}>
+                            <EmailIcon/><Typography variant={"body1"} p={"0 1rem"}>gajerab26@gmail.com</Typography>
+                        </div>
+                        <div style={{display: "flex", justifyContent: "center", padding: "0.5rem"}}>
+                            <BusinessIcon/><Typography variant={"body1"} p={"0 1rem"}>D-110, Matrushakti Society, India Colony, I.E Bapunagar, Ahmedabad-380024</Typography>
                         </div>
                     </Grid>
-                    <Grid item xs={6} md={3}>
-                        <Typography variant={"h4"} mb={2}>Contact Us</Typography>
-                        <img src={footerUnderLine} alt="Footer Nav" align={"center"} style={{marginRight: "6rem"}}/>
-                        <br/>
-                        <div style={{display: "flex", justifyContent: "center", padding: "1rem"}}>
-                            <CallIcon/><Typography variant={"body1"}>+91 1234569670</Typography>
-                        </div>
-                        <div style={{display: "flex", justifyContent: "center", padding: "0rem 1rem"}}>
-                            <CallIcon/> <Typography variant={"body1"}>+91 1234569670</Typography>
-                        </div>
-                    </Grid>
-                    <Grid item xs={6} md={3}>
-                        <Typography variant={"h4"} mb={2}>Contact Us</Typography>
-                        <img src={footerUnderLine} alt="Footer Nav" align={"center"} style={{marginRight: "6rem"}}/>
-                        <br/>
-                        <div style={{display: "flex", justifyContent: "center", padding: "1rem"}}>
-                            <Typography variant={"body1"}>Lorem ipsum.</Typography>
-                        </div>
-                        <div style={{display: "flex", justifyContent: "center", padding: "0rem 1rem"}}>
-                            <Typography variant={"body1"}>Lorem ipsum.</Typography>
-                        </div>
-                    </Grid>
-                    <Grid item xs={6} md={3}>
-                        <Typography variant={"h4"} mb={2}>Contact Us</Typography>
-                        <img src={footerUnderLine} alt="Footer Nav" align={"center"} style={{marginRight: "6rem"}}/>
-                        <br/>
-                        <div style={{display: "flex", justifyContent: "center", padding: "1rem"}}>
-                            <Typography variant={"body1"}>Lorem ipsum.</Typography>
-                        </div>
-                        <div style={{display: "flex", justifyContent: "center", padding: "0rem 1rem"}}>
-                            <Typography variant={"body1"}>Lorem ipsum.</Typography>
-                        </div>
-                    </Grid>
+                    {/*<Grid item xs={6} md={3}>*/}
+                    {/*    <Typography variant={"h4"} mb={2}>Contact Us</Typography>*/}
+                    {/*    <img src={footerUnderLine} alt="Footer Nav" align={"center"} style={{marginRight: "6rem"}}/>*/}
+                    {/*    <br/>*/}
+                    {/*    <div style={{display: "flex", justifyContent: "center", padding: "1rem"}}>*/}
+                    {/*        <Typography variant={"body1"}>Lorem ipsum.</Typography>*/}
+                    {/*    </div>*/}
+                    {/*    <div style={{display: "flex", justifyContent: "center", padding: "0rem 1rem"}}>*/}
+                    {/*        <Typography variant={"body1"}>Lorem ipsum.</Typography>*/}
+                    {/*    </div>*/}
+                    {/*</Grid>*/}
+                    {/*<Grid item xs={6} md={3}>*/}
+                    {/*    <Typography variant={"h4"} mb={2}>Contact Us</Typography>*/}
+                    {/*    <img src={footerUnderLine} alt="Footer Nav" align={"center"} style={{marginRight: "6rem"}}/>*/}
+                    {/*    <br/>*/}
+                    {/*    <div style={{display: "flex", justifyContent: "center", padding: "1rem"}}>*/}
+                    {/*        <Typography variant={"body1"}>Lorem ipsum.</Typography>*/}
+                    {/*    </div>*/}
+                    {/*    <div style={{display: "flex", justifyContent: "center", padding: "0rem 1rem"}}>*/}
+                    {/*        <Typography variant={"body1"}>Lorem ipsum.</Typography>*/}
+                    {/*    </div>*/}
+                    {/*</Grid>*/}
 
                 </Grid>
             </div>

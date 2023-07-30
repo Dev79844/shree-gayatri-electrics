@@ -23,7 +23,7 @@ const Service = () => {
                 Services
             </Typography>
 
-            <Typography className={'service-text'} fontSize={"1.5rem"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid deserunt est expedita harum ipsa odio officia qui veritatis vero? Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, non, quae? Debitis id, iure iusto officia rem sunt tempora tempore.</Typography>
+            <Typography className={'service-text'} fontSize={"1.5rem"}>Shree Gayatri Electric Corporation has been a trusted name as government contractors specializing in the maintenance and repair of Air Circuit Breakers (ACBs)</Typography>
             <MiniCards />
         </ServiceContainer>
     );
