@@ -29,14 +29,14 @@ const Home = () => {
                     <ContentText />
                 </Grid>
                 <Grid item sm={12} md={6} >
-                    <divv style={{
+                    <div style={{
                         display: "flex",
                         // border: "2px solid red",
                         paddingLeft: '6vw',
                         transform: 'translateY(-15vh)',
                     }}>
                         <Graphics/>
-                    </divv>
+                    </div>
                 </Grid>
             </Grid>
         </ParentDiv>

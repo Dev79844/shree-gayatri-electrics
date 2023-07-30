@@ -4,7 +4,7 @@ import Home from "./Landing/Home/Home.jsx";
 import Service from "./Landing/Service/Service.jsx";
 import OurWork from "./Landing/Service/OurWork.jsx";
 import HumanCapital from "./Landing/Community/HumanCapital.jsx";
-import NiceFewWords from "./Landing/Motivation/NiceFewWords.jsx";
+// import NiceFewWords from "./Landing/Motivation/NiceFewWords.jsx";
 import Footer from "./Landing/Footer/Footer.jsx";
 import AboutUs2 from "./Landing/About/AboutUs2.jsx";
 

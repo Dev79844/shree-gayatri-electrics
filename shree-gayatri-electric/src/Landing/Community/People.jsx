@@ -1,14 +1,16 @@
 import people from "../../assets/Images/Ellipse 4.png"
 import Typography from "@mui/material/Typography";
-
+import Shridhar from '../../assets/Images/Shridhar.png'
+import Nalinbhai from '../../assets/Images/Nalinbhai.png'
+import Balubhai from '../../assets/Images/Balubhai.png'
 
 const People = () => {
     // Sample data for people list (you can replace this with your actual data)
     const peopleData = [
         // { id: 1, name: "John Doe", img: people, post: "Co - Founder"},
-        { id: 2, name: "Late Balubhai Gajera", img: people, post: "Former CEO and founder"},
-        { id: 3, name: "Nalinbhai Gajera", img: people, post: "Current CEO and successor to Balubhai"},
-        { id: 4, name: "Shridhar Gajera", img: people, post: "3rd Gen Entrepreneur"},
+        { id: 2, name: "Late Balubhai Gajera", img: Balubhai, post: "Former CEO and founder"},
+        { id: 3, name: "Nalinbhai Gajera", img: Nalinbhai, post: "Current CEO and successor to Balubhai"},
+        { id: 4, name: "Shridhar Gajera", img: Shridhar, post: "3rd Gen Entrepreneur"},
         // { id: 5, name: "Michael Brown" , img: people, post: "CEO"},
         // { id: 11, name: "John Doe", img: people, post: "CEO"},
         // { id: 12, name: "Jane Smith" , img: people, post: "CEO"},

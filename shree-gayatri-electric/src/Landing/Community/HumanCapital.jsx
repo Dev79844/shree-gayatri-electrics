@@ -54,12 +54,12 @@ const HumanCapital = () => {
 
                         <Grid item sm={12} md={6}>
                             <div className={"human-capital"}>
-                            <Typography variant={"body1"} textAlign={"left"} pt={2} fontSize={"1.5rem"}>
-                                Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-                                interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
-                                conubia
-                                nostra, per inceptos himenaeos.
-                            </Typography>
+                            {/*<Typography variant={"body1"} textAlign={"left"} pt={2} fontSize={"1.5rem"}>*/}
+                            {/*    Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit*/}
+                            {/*    interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per*/}
+                            {/*    conubia*/}
+                            {/*    nostra, per inceptos himenaeos.*/}
+                            {/*</Typography>*/}
                             </div>
                         </Grid>
 

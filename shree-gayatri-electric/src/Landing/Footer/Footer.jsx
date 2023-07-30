@@ -37,7 +37,7 @@ const Footer = () => {
         >
 
             <div className={"footer-icons"}>
-                <divv style={{
+                <div style={{
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "space-evenly",
@@ -48,7 +48,7 @@ const Footer = () => {
                     <Image src={footer1} alt="Certified"/>
                     <Image src={footer2} alt="Certified"/>
                     <Image src={footer3} alt="Certified"/>
-                </divv>
+                </div>
 
                 <Grid container maxWidth={"100%"} width={"100vw"} >
                     {/*<Grid item xs={6} md={3}>*/}
